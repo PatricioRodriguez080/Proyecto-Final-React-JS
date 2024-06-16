@@ -18,7 +18,7 @@ body {
   aspect-ratio: 1;
   text-align: center;
   position: absolute;
-  top: 3px;
+  top: -4px;
   right: 1px;
   background-color: #2f4f4f;
   color: white;
