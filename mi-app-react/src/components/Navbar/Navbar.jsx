@@ -12,13 +12,13 @@ export const Navbar = () => {
           <a className="navbar-brand" href="#">Brand</a>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">Home</a>
+              <a className="nav-link" href="#">Link1</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
+              <a className="nav-link" href="#">Link2</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Disabled</a>
+              <a className="nav-link">Link3</a>
             </li>
           </ul>
         </div>
