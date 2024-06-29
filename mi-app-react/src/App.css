@@ -1,3 +1,7 @@
+.navbar{
+    margin: 0px 50px;
+}
+
 .fa-cart-shopping {
     font-size: 40px;
     cursor: pointer;
@@ -20,4 +24,5 @@
 
 .item-list-container {
     background-color: rgb(8, 204, 202);
+    margin: 0 50px;
 }

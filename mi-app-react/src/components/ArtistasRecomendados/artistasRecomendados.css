@@ -1,0 +1,38 @@
+.container-artistas-recomendados {
+    height: 200px;
+    overflow: hidden;
+    margin: 0 50px;
+}
+
+.artistas-recomendados-slider {
+    width: 100%;
+}
+
+.artistas-recomendados-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(8, 204, 202);
+}
+
+.slide-content {
+    display: flex;
+    align-items: center; 
+}
+
+.artista-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.slide-text-artistas{
+    font-size: 14px;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}

@@ -14,10 +14,10 @@ export const Carrousel = () => {
                 slidesPerView={1}
                 pagination={{ clickable: true }}
                 loop={true}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                // }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 modules={[Autoplay, Pagination, Navigation]}
                 breakpoints={{
                     640: {
@@ -29,7 +29,7 @@ export const Carrousel = () => {
                         spaceBetween: 20,
                     },
                     1024: {
-                        slidesPerView: 2,
+                        slidesPerView: 3,
                         spaceBetween: 50,
                     },
                 }}
@@ -50,6 +50,12 @@ export const Carrousel = () => {
                     <div className="slide-content">
                         <img src="images/imagen3.png" alt="cliente" />
                         <p className="slide-text">NCT WISH The 2nd Single [Songbird]</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className="testimonials-item">
+                    <div className="slide-content">
+                        <img src="images/imagen4.png" alt="cliente" />
+                        <p className="slide-text">NARCISSISM : JAEMIN</p>
                     </div>
                 </SwiperSlide>
             </Swiper>
