@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer propTextoEjemplo={"Este es mi item list container"}/>
+      <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
     </>
   )
 }
