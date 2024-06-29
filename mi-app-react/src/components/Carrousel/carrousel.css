@@ -1,0 +1,50 @@
+
+.container-carrousel {
+    height: 70vh;
+    margin: 20px 40px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.testimonials-slider {
+    height: 100%;
+}
+
+.swiper-wrapper{
+    height: 93% !important;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4C6AD;
+    border-radius: 25px;
+    position: relative;
+}
+
+.slide-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: black;
+    max-width: 80%;
+}
+
+.container-carrousel .swiper-pagination .swiper-pagination-bullet{
+    background: rgb(8, 204, 202);
+}

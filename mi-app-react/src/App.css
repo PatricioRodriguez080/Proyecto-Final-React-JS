@@ -12,8 +12,12 @@
     position: absolute;
     top: -4px;
     right: 1px;
-    background-color: #2f4f4f;
+    background-color: rgb(8, 204, 202);
     color: white;
     border-radius: 100%;
     font-size: 13px;
+}
+
+.item-list-container {
+    background-color: rgb(8, 204, 202);
 }
