@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
 import { Carrousel } from './components/Carrousel/Carrousel'
 import { ArtistasRecomendados } from './components/ArtistasRecomendados/ArtistasRecomendados'
+import { Nuevo } from './components/Nuevo/Nuevo'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Carrousel/>
       <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
       <ArtistasRecomendados/>
+      <h2>Nuevo</h2>
+      <Nuevo/>
     </>
   )
 }
