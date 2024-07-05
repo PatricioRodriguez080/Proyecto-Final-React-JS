@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "grupo": "Seventeen",
+        "nombre": "5th Mini Album 'YOU MAKE MY DAY' (Set)",
+        "imagen": "./images/Seventeen/nuevo/1.png"
+    },
+    {
+        "id": 2,
+        "grupo": "Seventeen",
+        "nombre": "1st Mini Album '17 CARAT'",
+        "imagen": "./images/Seventeen/nuevo/2.png"
+    },
+    {
+        "id": 3,
+        "grupo": "Seventeen",
+        "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
+        "imagen": "./images/Seventeen/nuevo/3.png"
+    },
+    {
+        "id": 4,
+        "grupo": "Seventeen",
+        "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
+        "imagen": "./images/Seventeen/nuevo/3.png"
+    }
+]
