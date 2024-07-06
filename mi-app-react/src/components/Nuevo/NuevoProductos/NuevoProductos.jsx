@@ -18,17 +18,25 @@ export const NuevoProductos = ({ propGrupo }) => {
 
     return (
         <>
-            {arrayProductosNuevos
-                .filter(producto => producto.grupo === propGrupo)
-                .map(({ id, grupo, nombre, imagen }) => (
-                    <div key={id} className="card" style={{ width: '18rem' }}>
-                        <img src={imagen} className="card-img-top" alt={grupo} />
-                        <div className="card-body">
-                            <p className="card-text">{nombre}</p>
-                        </div>
-                    </div>
-                ))
-            }
+            <div className="container-nuevos-productos">
+                <div className="container-titulo-nuevos-productos">
+                    <img src="./images/logo1.png" className="imagen-nuevos-productos" alt={propGrupo} />
+                    <h3 className="ms-3">Seventeen</h3>
+                </div>
+                <div className="container-cards-nuevos-productos">
+                    {arrayProductosNuevos
+                        .filter(producto => producto.grupo === propGrupo)
+                        .map(({ id, grupo, nombre, imagen }) => (
+                            <div key={id} className="card" style={{ width: '18rem' }}>
+                                <img src={imagen} className="card-img-top" alt={grupo} />
+                                <div className="card-body">
+                                    <p className="card-text">{nombre}</p>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </>
     )
 }

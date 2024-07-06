@@ -12,7 +12,7 @@ function App() {
       <Carrousel/>
       <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
       <ArtistasRecomendados/>
-      <h2>Nuevo</h2>
+      <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo/>
     </>
   )
