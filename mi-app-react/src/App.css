@@ -16,7 +16,7 @@
     position: absolute;
     top: -4px;
     right: 1px;
-    background-color: rgb(8, 204, 202);
+    background-color: #E3B5B5;
     color: white;
     border-radius: 100%;
     font-size: 13px;
@@ -80,13 +80,16 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
-    flex: 1; /* Hace que la imagen ocupe más espacio */
+    flex: 1;
 }
 
 .card-body {
-    padding: 15px;
     text-align: left;
-    flex: 0.3; /* Hace que el texto ocupe menos espacio */
+    flex: 0.3;
+}
+
+.card-body-nuevos-productos {
+    padding: 15px 15px 15px 1px;
 }
 
 .card-text {

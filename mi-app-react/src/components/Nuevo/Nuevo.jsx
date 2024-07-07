@@ -6,6 +6,7 @@ export const Nuevo = () => {
     <>
       <NuevoProductos propGrupo="Seventeen"/>
       <NuevoProductos propGrupo="Le Sserafim"/>
+      <NuevoProductos propGrupo="Tomorrow X Together"/>
     </>
   )
 }

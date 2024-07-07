@@ -3,48 +3,84 @@
         "id": 1,
         "grupo": "Seventeen",
         "nombre": "5th Mini Album 'YOU MAKE MY DAY' (Set)",
-        "imagen": "./images/Seventeen/nuevo/1.png"
+        "imagen": "./images/Seventeen/nuevo/1.png",
+        "precio": 15.32
     },
     {
         "id": 2,
         "grupo": "Seventeen",
-        "nombre": "1st Mini Album '17 CARAT'",
-        "imagen": "./images/Seventeen/nuevo/2.png"
+        "nombre": "SEVENTEEN 9th Mini Album 'Attacca' (CARAT Ver.)",
+        "imagen": "./images/Seventeen/nuevo/2.jpg",
+        "precio": 20.23
     },
     {
         "id": 3,
         "grupo": "Seventeen",
         "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
-        "imagen": "./images/Seventeen/nuevo/3.png"
+        "imagen": "./images/Seventeen/nuevo/3.png",
+        "precio": 10.17
     },
     {
         "id": 4,
         "grupo": "Seventeen",
-        "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
-        "imagen": "./images/Seventeen/nuevo/3.png"
+        "nombre": "JAPAN BEST ALBUM「ALWAYS YOURS」 Standard",
+        "imagen": "./images/Seventeen/nuevo/4.png",
+        "precio": 30.24
     },
     {
         "id": 5,
         "grupo": "Le Sserafim",
         "nombre": "JAPAN 2nd Single [UNFORGIVEN] Standard Edition",
-        "imagen": "./images/Le Sserafim/nuevo/1.png"
+        "imagen": "./images/Le Sserafim/nuevo/1.png",
+        "precio": 20.19
     },
     {
         "id": 6,
         "grupo": "Le Sserafim",
         "nombre": "3rd Mini Album 'EASY' (COMPACT ver.) Set",
-        "imagen": "./images/Le Sserafim/nuevo/2.png"
+        "imagen": "./images/Le Sserafim/nuevo/2.png",
+        "precio": 35.43
     },
     {
         "id": 7,
         "grupo": "Le Sserafim",
         "nombre": "JAPAN 1st Single [FEARLESS] Solo Jacket",
-        "imagen": "./images/Le Sserafim/nuevo/3.png"
+        "imagen": "./images/Le Sserafim/nuevo/3.png",
+        "precio": 25.17
     },
     {
         "id": 8,
         "grupo": "Le Sserafim",
-        "nombre": "JAPAN 1st Single [FEARLESS] Standard",
-        "imagen": "./images/Le Sserafim/nuevo/4.png"
+        "nombre": "JAPAN 1st Single [FEARLESS] Standard Edition",
+        "imagen": "./images/Le Sserafim/nuevo/4.png",
+        "precio": 20.12
+    },
+    {
+        "id": 9,
+        "grupo": "Tomorrow X Together",
+        "nombre": "JP 4th Single [CHIKAI] Limited Edition B",
+        "imagen": "./images/Tomorrow X Together/nuevo/1.png",
+        "precio": 16.23
+    },
+    {
+        "id": 10,
+        "grupo": "Tomorrow X Together",
+        "nombre": "minisode 3: TOMORROW (Light Ver.) (Set)",
+        "imagen": "./images/Tomorrow X Together/nuevo/2.png",
+        "precio": 51.66
+    },
+    {
+        "id": 11,
+        "grupo": "Tomorrow X Together",
+        "nombre": "The Name Chapter: TEMPTATION Lullaby ver. (Random)",
+        "imagen": "./images/Tomorrow X Together/nuevo/3.png",
+        "precio": 9.67
+    },
+    {
+        "id": 12,
+        "grupo": "Tomorrow X Together",
+        "nombre": "The Chaos Chapter: FIGHT OR ESCAPE (Random)",
+        "imagen": "./images/Tomorrow X Together/nuevo/4.jpg",
+        "precio": 14.67
     }
 ]
