@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     margin: 0px 50px;
 }
 
@@ -65,6 +65,11 @@
     align-items: center;
 }
 
+.col-nuevos-productos {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     width: 30%;
     margin: 0 10px;
@@ -95,4 +100,36 @@
 .card-text {
     margin: 0;
     text-align: left;
+}
+
+/* Queries */
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        margin: 0;
+    }
+
+    .container-artistas-recomendados {
+        margin: 0;
+        /* REVISAR ESTE QUE NO ANDA */
+    }
+
+    .titulo-nuevo {
+        margin: 0 10px;
+    }
+
+    .container-nuevo {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        margin: 0;
+    }
+    
+    .container-nuevo {
+        margin: 10px;
+    }
 }

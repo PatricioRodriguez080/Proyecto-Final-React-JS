@@ -13,10 +13,10 @@ function App() {
     <>
       <Navbar/>
       <Carrousel/>
-      <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
       <ArtistasRecomendados grupos={arrayGrupos}/>
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo/>
+      <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
     </>
   )
 }
