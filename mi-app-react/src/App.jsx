@@ -6,12 +6,15 @@ import { ArtistasRecomendados } from './components/ArtistasRecomendados/Artistas
 import { Nuevo } from './components/Nuevo/Nuevo'
 
 function App() {
+
+  const arrayGrupos = ["Seventeen", "Le Sserafim", "New Jeans", "NCT", "TWS"]
+
   return (
     <>
       <Navbar/>
       <Carrousel/>
       <ItemListContainer propTextoEjemplo={"No se encontraron productos"}/>
-      <ArtistasRecomendados/>
+      <ArtistasRecomendados grupos={arrayGrupos}/>
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo/>
     </>
