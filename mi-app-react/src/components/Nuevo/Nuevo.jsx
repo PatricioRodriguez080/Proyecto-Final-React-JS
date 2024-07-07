@@ -3,8 +3,9 @@ import { NuevoProductos } from './NuevoProductos/NuevoProductos'
 
 export const Nuevo = () => {
   return (
-    <div className="container-nuevo">
-        <NuevoProductos propGrupo="Seventeen"/>
-    </div>
+    <>
+      <NuevoProductos propGrupo="Seventeen"/>
+      <NuevoProductos propGrupo="Le Sserafim"/>
+    </>
   )
 }

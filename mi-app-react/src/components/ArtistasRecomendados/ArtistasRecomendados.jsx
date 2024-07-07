@@ -37,7 +37,7 @@ export const ArtistasRecomendados = () => {
         >
             <SwiperSlide className="artistas-recomendados-item">
                 <div className="slide-content">
-                    <img src="images/logo1.png" alt="artistas" className="artista-img" />
+                    <img src="images/logoSeventeen.png" alt="artistas" className="artista-img" />
                     <p className="slide-text-artistas">SEVENTEEN</p>
                 </div>
             </SwiperSlide>
@@ -49,7 +49,7 @@ export const ArtistasRecomendados = () => {
             </SwiperSlide>
             <SwiperSlide className="artistas-recomendados-item">
                 <div className="slide-content">
-                    <img src="images/logo3.png" alt="artistas" className="artista-img" />
+                    <img src="images/logoLe Sserafim.png" alt="artistas" className="artista-img" />
                     <p className="slide-text-artistas">NOMBRE3</p>
                 </div>
             </SwiperSlide>

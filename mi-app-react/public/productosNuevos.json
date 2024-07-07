@@ -22,5 +22,29 @@
         "grupo": "Seventeen",
         "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
         "imagen": "./images/Seventeen/nuevo/3.png"
+    },
+    {
+        "id": 5,
+        "grupo": "Le Sserafim",
+        "nombre": "JAPAN 2nd Single [UNFORGIVEN] Standard Edition",
+        "imagen": "./images/Le Sserafim/nuevo/1.png"
+    },
+    {
+        "id": 6,
+        "grupo": "Le Sserafim",
+        "nombre": "3rd Mini Album 'EASY' (COMPACT ver.) Set",
+        "imagen": "./images/Le Sserafim/nuevo/2.png"
+    },
+    {
+        "id": 7,
+        "grupo": "Le Sserafim",
+        "nombre": "JAPAN 1st Single [FEARLESS] Solo Jacket",
+        "imagen": "./images/Le Sserafim/nuevo/3.png"
+    },
+    {
+        "id": 8,
+        "grupo": "Le Sserafim",
+        "nombre": "JAPAN 1st Single [FEARLESS] Standard",
+        "imagen": "./images/Le Sserafim/nuevo/4.png"
     }
 ]

@@ -17,11 +17,11 @@ export const NuevoProductos = ({ propGrupo }) => {
     }, [])
 
     return (
-        <>
+        <div className="container-nuevo">
             <div className="container-nuevos-productos">
                 <div className="container-titulo-nuevos-productos">
-                    <img src="./images/logo1.png" className="imagen-nuevos-productos" alt={propGrupo} />
-                    <h3 className="ms-3">Seventeen</h3>
+                    <img src={`./images/logo${propGrupo}.png`} className="imagen-nuevos-productos" alt={propGrupo} />
+                    <h3 className="ms-3">{propGrupo}</h3>
                 </div>
                 <div className="container-cards-nuevos-productos">
                     {arrayProductosNuevos
@@ -37,6 +37,6 @@ export const NuevoProductos = ({ propGrupo }) => {
                     }
                 </div>
             </div>
-        </>
+        </div>
     )
 }
