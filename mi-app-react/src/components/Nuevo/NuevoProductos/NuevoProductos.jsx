@@ -21,7 +21,7 @@ export const NuevoProductos = ({ propGrupo }) => {
             <div className="container-nuevos-productos">
                 <div className="container-titulo-nuevos-productos">
                     <img src={`./images/logo${propGrupo}.png`} className="imagen-nuevos-productos" alt={propGrupo} />
-                    <h3 className="ms-3">{propGrupo}</h3>
+                    <h3 className="ms-3 mb-0">{propGrupo}</h3>
                 </div>
                 <div className="container-cards-nuevos-productos">
                     {arrayProductosNuevos
