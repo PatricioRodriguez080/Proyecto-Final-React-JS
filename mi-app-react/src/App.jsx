@@ -43,6 +43,7 @@ function App() {
       <ArtistasRecomendados grupos={arrayGrupos} />
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo />
+      <h2 className="titulo-nuevo">Todos Los Productos</h2>
       <ItemListContainer productosFiltrados={productosFiltrados}/>
     </>
   )
