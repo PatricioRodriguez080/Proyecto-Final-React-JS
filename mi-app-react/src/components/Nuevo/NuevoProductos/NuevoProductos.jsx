@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export const NuevoProductos = ({ propGrupo }) => {
+export const NuevoProductos = ({propGrupo, filtrarPorGrupo}) => {
     const [arrayProductosNuevos, setArrayProductosNuevos] = useState([])
 
     useEffect(() => {
@@ -19,9 +19,12 @@ export const NuevoProductos = ({ propGrupo }) => {
     return (
         <div className="container-nuevo">
             <div className="container-nuevos-productos">
-                <div className="container-titulo-nuevos-productos">
-                    <img src={`./images/logo${propGrupo}.png`} className="imagen-nuevos-productos" alt={propGrupo} />
-                    <h3 className="ms-3 mb-0">{propGrupo}</h3>
+                <div className="container-titulo-nuevos-productos d-flex justify-content-between align-items-center">
+                    <div className="d-flex align-items-center">
+                        <img src={`./images/logo${propGrupo}.png`} className="imagen-nuevos-productos" alt={propGrupo} />
+                        <h3 className="ms-3 mb-0">{propGrupo}</h3>
+                    </div>
+                    <h4 className="titulo-ver-todo mb-0" onClick={() => filtrarPorGrupo(propGrupo)}>Ver todo</h4>
                 </div>
                 <div className="row container-cards-nuevos-productos">
                     {arrayProductosNuevos

@@ -45,6 +45,11 @@
     margin-left: 50px;
 }
 
+.titulo-ver-todo {
+    cursor: pointer;
+    font-weight: 100;
+}
+
 .imagen-nuevos-productos {
     width: 60px;
     border-radius: 100%;

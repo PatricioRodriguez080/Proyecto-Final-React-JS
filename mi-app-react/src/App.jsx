@@ -34,6 +34,11 @@ function App() {
     setproductosFiltrados(merch)
   }
 
+  const filtrarPorGrupo = (grupoBuscado) => {
+    const productosPorGrupo = arrayProductos.filter(producto => producto.grupo === grupoBuscado)
+    setproductosFiltrados(productosPorGrupo)
+  }
+
   const arrayGrupos = ["Seventeen", "Le Sserafim", "New Jeans", "NCT", "TWS"]
 
   return (
@@ -42,7 +47,7 @@ function App() {
       <Carrousel />
       <ArtistasRecomendados grupos={arrayGrupos} />
       <h2 className="titulo-nuevo">Nuevo</h2>
-      <Nuevo />
+      <Nuevo filtrarPorGrupo={filtrarPorGrupo}/>
       <h2 className="titulo-nuevo">Todos Los Productos</h2>
       <ItemListContainer productosFiltrados={productosFiltrados}/>
     </>
