@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "nombre": "정한X원우 1st Single Album 'THIS MAN'",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png"
+    },
+    {
+        "id": 2,
+        "nombre": "SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set).png"
+    },
+    {
+        "id": 3,
+        "nombre": "SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver.",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver..png"
+    },
+    {
+        "id": 4,
+        "nombre": "11th Mini Album 'SEVENTEENTH HEAVEN' (Set)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' (Set).png"
+    },
+    {
+        "id": 5,
+        "nombre": "11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random).png"
+    },
+    {
+        "id": 6,
+        "nombre": "JAPAN BEST ALBUM「ALWAYS YOURS」 Standard",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/JAPAN BEST ALBUM「ALWAYS YOURS」 Standard.png"
+    },
+    {
+        "id": 7,
+        "nombre": "10th Mini Album 'FML' (Set)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/10th Mini Album 'FML' (Set).png"
+    },
+    {
+        "id": 8,
+        "nombre": "10th Mini Album 'FML' (CARAT Ver.)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/10th Mini Album 'FML' (CARAT Ver.).png"
+    },
+    {
+        "id": 9,
+        "nombre": "4th Album 'Face the Sun' (Set)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/4th Album 'Face the Sun' (Set).png"
+    },
+    {
+        "id": 10,
+        "nombre": "8th Mini Album 'Your Choice' (Random)",
+        "grupo": "Seventeen",
+        "categoria": "album",
+        "precio": 200,
+        "imagen": "./images/Seventeen/album/8th Mini Album 'Your Choice' (Random).jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "HAPPY HOSHI DAY BIRTHDAY BOX VER.3",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/HAPPY HOSHI DAY BIRTHDAY BOX VER.3.png"
+    },
+    {
+        "id": 12,
+        "nombre": "HAPPY WONWOO DAY BIRTHDAY BOX VER.3",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/HAPPY WONWOO DAY BIRTHDAY BOX VER.3.png"
+    },
+    {
+        "id": 13,
+        "nombre": "HAPPY MINGYU DAY BIRTHDAY BOX VER.3",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/HAPPY MINGYU DAY BIRTHDAY BOX VER.3.png"
+    },
+    {
+        "id": 14,
+        "nombre": "HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3.png"
+    },
+    {
+        "id": 15,
+        "nombre": "HAPPY WOOZI DAY BIRTHDAY BOX VER.33",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/HAPPY WOOZI DAY BIRTHDAY BOX VER.3.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Going Company Diary",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/Going Company Diary.png"
+    },
+    {
+        "id": 17,
+        "nombre": "[THE 8] Cozy Set",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/[THE 8] Cozy Set.png"
+    },
+    {
+        "id": 18,
+        "nombre": "THIS MAN S/S T-Shirt",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/THIS MAN S/S T-Shirt.png"
+    },
+    {
+        "id": 19,
+        "nombre": "[WOOZI] Universe Factory Rug",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/[WOOZI] Universe Factory Rug.png"
+    },
+    {
+        "id": 20,
+        "nombre": "[HOSHI] Plush Keyring",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/[HOSHI] Plush Keyring.png"
+    },
+    {
+        "id": 21,
+        "nombre": "[WONWOO] Love Packed Keyboard",
+        "grupo": "Seventeen",
+        "categoria": "merch",
+        "precio": 200,
+        "imagen": "./images/Seventeen/merch/[WONWOO] Love Packed Keyboard.png"
+    }
+]
