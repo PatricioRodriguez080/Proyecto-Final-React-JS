@@ -5,10 +5,12 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 import { Carrousel } from './components/Carrousel/Carrousel'
 import { ArtistasRecomendados } from './components/ArtistasRecomendados/ArtistasRecomendados'
 import { Nuevo } from './components/Nuevo/Nuevo'
+import { ItemDetail } from './components/ItemDetail/ItemDetail'
 
 function App() {
   const [arrayProductos, setArrayProductos] = useState([])
   const [productosFiltrados, setproductosFiltrados] = useState([])
+  const [productoDetail, setProductoDetail] = useState(null)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -39,6 +41,17 @@ function App() {
     setproductosFiltrados(productosPorGrupo)
   }
 
+  const itemAMostrarDetalle = (idDelProducto, nombreDelProducto, grupoDelProducto, precioDelProducto, imagenDelProducto) => {
+    setProductoDetail({
+      id: idDelProducto,
+      nombre: nombreDelProducto,
+      grupo: grupoDelProducto,
+      precio: precioDelProducto,
+      imagen: imagenDelProducto
+    })
+    console.log(productoDetail);
+  }
+
   const arrayGrupos = ["Seventeen", "Le Sserafim", "New Jeans", "NCT", "TWS"]
 
   return (
@@ -49,7 +62,8 @@ function App() {
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo filtrarPorGrupo={filtrarPorGrupo}/>
       <h2 className="titulo-nuevo">Todos Los Productos</h2>
-      <ItemListContainer productosFiltrados={productosFiltrados}/>
+      <ItemListContainer productosFiltrados={productosFiltrados} itemAMostrarDetalle={itemAMostrarDetalle}/>
+      <ItemDetail productoAMostrarDetail={productoDetail}/>
     </>
   )
 }
