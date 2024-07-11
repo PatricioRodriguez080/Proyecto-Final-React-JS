@@ -6,9 +6,13 @@ export const ItemListContainer = ({ arrayProductos }) => {
   const [productosFiltrados, setProductosFiltrados] = useState([])
 
   useEffect(() => {
-    const productosFiltrados = arrayProductos.filter(producto => producto.categoria === urlParam)
-    setProductosFiltrados(productosFiltrados)
-  }, [urlParam])
+    if (urlParam) {
+      const productosFiltrados = arrayProductos.filter(producto => producto.categoria === urlParam)
+      setProductosFiltrados(productosFiltrados)
+    }else{
+      setProductosFiltrados(arrayProductos)
+    }
+  }, [urlParam, arrayProductos])
 
   return (
     <div className="container-item-list-container">

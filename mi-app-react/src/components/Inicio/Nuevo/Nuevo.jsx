@@ -1,12 +1,12 @@
 import React from 'react'
 import { NuevoProductos } from './NuevoProductos/NuevoProductos'
 
-export const Nuevo = ({filtrarPorGrupo}) => {
+export const Nuevo = () => {
   return (
     <>
-      <NuevoProductos propGrupo="Seventeen" filtrarPorGrupo={filtrarPorGrupo}/>
-      <NuevoProductos propGrupo="Le Sserafim" filtrarPorGrupo={filtrarPorGrupo}/>
-      <NuevoProductos propGrupo="Tomorrow X Together" filtrarPorGrupo={filtrarPorGrupo}/>
+      <NuevoProductos propGrupo="Seventeen"/>
+      <NuevoProductos propGrupo="Le Sserafim"/>
+      <NuevoProductos propGrupo="Tomorrow X Together"/>
     </>
   )
 }
