@@ -5,7 +5,9 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 20.45,
-        "imagen": "/images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png"
+        "imagen": "/images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/4f4353efec22f3c4c12ca8a4dc20d495.jpg?q=95&w=720",
+        "descripcion2": ""
     },
     {
         "id": 2,
@@ -13,7 +15,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 30.23,
-        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set).png"
+        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/a02179cf3157c319f1b617b1a7d224e7.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/08d30082007d6c36b651dd0a8e31fcd9.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 3,
@@ -21,7 +26,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 80.67,
-        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver..png"
+        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver..png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/a8ea9aec7830ffffa848b3c307964aae.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/83a696af3dbf96440d44c3af911b12d0.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 4,
@@ -29,7 +37,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 40.32,
-        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' (Set).png"
+        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' (Set).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/9660fe74d6de58f88ad0d86d511faedb.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/3a204f2e661ad6d722d50380e50d2eb3.png?q=95&w=720",
+        "descripcion3": "https://cdn-contents.weverseshop.io/public/shop/6e8945fc31f05ff0f96ed4cc6a482b0a.png?q=95&w=720"
     },
     {
         "id": 5,
@@ -37,7 +48,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 50.45,
-        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random).png"
+        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/67d0ec0f41b7902c1a4a2f4e5695b28c.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/6d8e374a80578f9131490c318b85575d.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 6,
@@ -45,7 +59,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 72.40,
-        "imagen": "/images/Seventeen/album/JAPAN BEST ALBUM「ALWAYS YOURS」 Standard.png"
+        "imagen": "/images/Seventeen/album/JAPAN BEST ALBUM「ALWAYS YOURS」 Standard.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/27aebfd760d03d6cf5c9112a0cf9cb6a.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 7,
@@ -53,7 +70,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 42.63,
-        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (Set).png"
+        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (Set).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/2f447cbaceffef57feedfdad5dc9b8bb.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/80840728f6c2c79106374a54852345f0.png?q=95&w=720",
+        "descripcion3": "https://cdn-contents.weverseshop.io/public/shop/41c3c43d61b7d2f09460617075c333fa.png?q=95&w=720"
     },
     {
         "id": 8,
@@ -61,7 +81,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 93.56,
-        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (CARAT Ver.).png"
+        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (CARAT Ver.).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/ee3031750f28b1bd71e5b261120e2736.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/2610b3d445f4a49c344f81e946558925.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 9,
@@ -69,7 +92,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 84.76,
-        "imagen": "/images/Seventeen/album/4th Album 'Face the Sun' (Set).png"
+        "imagen": "/images/Seventeen/album/4th Album 'Face the Sun' (Set).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/d7d08c569bc8dbbaff0c06d5258ea0c7.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/7181f3f2e2872d7ee151cb749237743d.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 10,
@@ -77,7 +103,10 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 87.23,
-        "imagen": "/images/Seventeen/album/8th Mini Album 'Your Choice' (Random).jpg"
+        "imagen": "/images/Seventeen/album/8th Mini Album 'Your Choice' (Random).jpg",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/6929ea781c4463cc79b0a270ec37f856.jpg?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/7b8054addcaca76e743584ba7dd0f36d.jpg?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 11,
@@ -85,7 +114,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "/images/Seventeen/merch/HAPPY HOSHI DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY HOSHI DAY BIRTHDAY BOX VER.3.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/263e756f01fa613dd83a8437b0c11980.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 12,
@@ -93,7 +125,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "/images/Seventeen/merch/HAPPY WONWOO DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY WONWOO DAY BIRTHDAY BOX VER.3.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/cbd76fe12417cca2dbe7a77ba03cb57d.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 13,
@@ -101,7 +136,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "/images/Seventeen/merch/HAPPY MINGYU DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY MINGYU DAY BIRTHDAY BOX VER.3.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/8317afe51351e9115e0f0f5dc27dbb7c.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 14,
@@ -109,7 +147,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "/images/Seventeen/merch/HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/b5d97c70d6c348f291a99450c68f6ef4.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 15,
@@ -117,7 +158,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "/images/Seventeen/merch/HAPPY WOOZI DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY WOOZI DAY BIRTHDAY BOX VER.3.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/829231ad427decc7bf9b0a0f3bcdda53.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 16,
@@ -125,7 +169,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 9.43,
-        "imagen": "/images/Seventeen/merch/Going Company Diary.png"
+        "imagen": "/images/Seventeen/merch/Going Company Diary.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/c9073c021b91eb60825bc158dfcc49c1.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 17,
@@ -133,7 +180,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 12.49,
-        "imagen": "/images/Seventeen/merch/[THE 8] Cozy Set.png"
+        "imagen": "/images/Seventeen/merch/[THE 8] Cozy Set.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/ad52a1aad66e134524862fb650a49562.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 18,
@@ -141,7 +191,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 20.90,
-        "imagen": "/images/Seventeen/merch/THIS MAN SS T-Shirt.png"
+        "imagen": "/images/Seventeen/merch/THIS MAN SS T-Shirt.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/370241b720cf388f116a766517ac8bd4.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 19,
@@ -149,7 +202,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 12.87,
-        "imagen": "/images/Seventeen/merch/[WOOZI] Universe Factory Rug.png"
+        "imagen": "/images/Seventeen/merch/[WOOZI] Universe Factory Rug.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/2660cf814242f6425b367b57ffb7a256.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 20,
@@ -157,7 +213,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 16.92,
-        "imagen": "/images/Seventeen/merch/[HOSHI] Plush Keyring.png"
+        "imagen": "/images/Seventeen/merch/[HOSHI] Plush Keyring.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/56def32fb3a6b76c43edc3fa7b90eb70.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 21,
@@ -165,7 +224,10 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 90.82,
-        "imagen": "/images/Seventeen/merch/[WONWOO] Love Packed Keyboard.png"
+        "imagen": "/images/Seventeen/merch/[WONWOO] Love Packed Keyboard.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/1ea525b65fa66c4b7f4ba92574c67455.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 22,
