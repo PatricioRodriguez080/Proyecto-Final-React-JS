@@ -7,7 +7,8 @@
         "precio": 20.45,
         "imagen": "/images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png",
         "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/4f4353efec22f3c4c12ca8a4dc20d495.jpg?q=95&w=720",
-        "descripcion2": ""
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 2,
@@ -235,7 +236,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 63.87,
-        "imagen": "/images/Le Sserafim/album/2nd Mini Album 'ANTIFRAGILE' (COMPACT Ver.) Set.png"
+        "imagen": "/images/Le Sserafim/album/2nd Mini Album 'ANTIFRAGILE' (COMPACT Ver.) Set.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/d299052e3c2659bee6b244fe53aaa094.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/5df8f0aae2503be6e16c02e5c8339452.png?q=95&w=720",
+        "descripcion3": "https://cdn-contents.weverseshop.io/public/shop/0f1c66f4928532fa2af1a3be84ba9266.png?q=95&w=720"
     },
     {
         "id": 23,
@@ -243,7 +247,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 63.71,
-        "imagen": "/images/Le Sserafim/album/JAPAN 1st Single [FEARLESS] Standard.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 1st Single [FEARLESS] Standard.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/c8f2ebb0ed5546e5b3fe2dab5aac8293.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 24,
@@ -251,7 +258,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 30.98,
-        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (COMPACT ver.) Random.png"
+        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (COMPACT ver.) Random.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/647cf42b30517ecb28e1de2ec64a728c.jpg?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 25,
@@ -259,7 +269,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 37.42,
-        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (Set).png"
+        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (Set).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/331bae0a4aec1b4c711912f36f28eaa2.jpg?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 26,
@@ -267,7 +280,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 62.46,
-        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Standard Edition.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Standard Edition.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/ebe8dc9f55a2b7ac00a3cf8d464f3b8e.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 27,
@@ -275,7 +291,10 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 25.42,
-        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Solo Jacket.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Solo Jacket.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/c4d0340427f71157964938389ad2da1c.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 28,
@@ -283,7 +302,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.63,
-        "imagen": "/images/Le Sserafim/merch/Cut-Out Neck Bra Top (Black).png"
+        "imagen": "/images/Le Sserafim/merch/Cut-Out Neck Bra Top (Black).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/ff842d1d9bb7a793651960beaf93f5d2.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/22a47a1dc388fad694b4da1c849718fc.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 29,
@@ -291,7 +313,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.74,
-        "imagen": "/images/Le Sserafim/merch/Oversized Shorts (Light grey).png"
+        "imagen": "/images/Le Sserafim/merch/Oversized Shorts (Light grey).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/e53ddbcc9bc9891103ed71d6de45a62d.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/fbec850c4bafcfcad5ee820f0a1ef543.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 30,
@@ -299,7 +324,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.74,
-        "imagen": "/images/Le Sserafim/merch/Double Layer Shorts (Black) - Women's.png"
+        "imagen": "/images/Le Sserafim/merch/Double Layer Shorts (Black) - Women's.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/acc076539996fa7d05aaad2e6e5edccb.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/1f82736710540cc0fb92352d7719beb5.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 31,
@@ -307,7 +335,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 22.81,
-        "imagen": "/images/Le Sserafim/merch/Jersey L-S T-Shirt (Black).png"
+        "imagen": "/images/Le Sserafim/merch/Jersey L-S T-Shirt (Black).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/9e4de896da6348ae46962d59ba965791.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/f0ed9152e06677c85c82377d07c245ec.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 32,
@@ -315,7 +346,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 30.25,
-        "imagen": "/images/Le Sserafim/merch/Zip-up Hoodie (Melange Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Zip-up Hoodie (Melange Grey).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/420a77288e10f2e1f4d29fe09262bf8d.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/15be4d45f281e421f6763c1b6a6a6481.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 33,
@@ -323,7 +357,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 15.37,
-        "imagen": "/images/Le Sserafim/merch/Crop Wind Breaker (Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Crop Wind Breaker (Grey).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/b54c20e62119473daff1fe457520a695.png?q=95&w=7200",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/b6087d1d5859e930b26ae52590ce1964.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 34,
@@ -331,7 +368,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 35.85,
-        "imagen": "/images/Le Sserafim/merch/Track Pants (Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Track Pants (Grey).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/7b71bcbe9d3f463f7c2025abcd5e3e80.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/d9a926318ec546d8839ba59d50d3283e.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 35,
@@ -339,7 +379,10 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 15.83,
-        "imagen": "/images/Le Sserafim/merch/Gym Bag (Fearless Blue).png"
+        "imagen": "/images/Le Sserafim/merch/Gym Bag (Fearless Blue).png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/9559fe716888906b2e2d7ccf2d3cdf72.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/6a2495f526d5286a4cc5ba003473b5e0.png?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 36,
@@ -347,6 +390,9 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 9.74,
-        "imagen": "/images/Le Sserafim/merch/Ball Cap.png"
+        "imagen": "/images/Le Sserafim/merch/Ball Cap.png",
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/9e098a331a2e04a17d9aea291cffe541.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/9e098a331a2e04a17d9aea291cffe541.png?q=95&w=720",
+        "descripcion3": ""
     }
 ]
