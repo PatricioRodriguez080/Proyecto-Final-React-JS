@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { CartWidget } from './CartWidget'
 
-export const Navbar = ({filtrarAlbums, filtrarMerch}) => {
+export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid position-relative">
@@ -9,16 +10,16 @@ export const Navbar = ({filtrarAlbums, filtrarMerch}) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand" href="#">Universe Factory</a>
+          <Link className="navbar-brand" to="/">Universe Factory</Link>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" onClick={filtrarAlbums}>Albums</a>
+              <Link className="nav-link" to="/categoria/album">Albums</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={filtrarMerch}>Merch</a>
+              <Link className="nav-link" to="/categoria/merch">Merch</Link>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="#">Link3</a>
+              <a className="nav-link" href="#">Link3</a>
             </li>
           </ul>
         </div>
