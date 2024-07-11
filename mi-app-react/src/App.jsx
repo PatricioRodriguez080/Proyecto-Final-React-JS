@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Navbar } from './components/Navbar/Navbar'
 import { ItemListContainer } from './components/Inicio/ItemListContainer/ItemListContainer'
 import Inicio  from './components/Inicio/Inicio'
+import { ItemDetail } from './components/ItemDetail/ItemDetail'
 
 function App() {
   const [arrayProductos, setArrayProductos] = useState([])
@@ -20,7 +21,7 @@ function App() {
     }
     fetchData()
   }, [])
-
+  
   const arrayGrupos = ["Seventeen", "Le Sserafim", "New Jeans", "NCT", "TWS"]
 
   return (
@@ -28,9 +29,10 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Inicio arrayGrupos={arrayGrupos} arrayProductos={arrayProductos}/>} />
+          <Route path='/' element={<Inicio arrayGrupos={arrayGrupos} arrayProductos={arrayProductos}/>}/>
 
           <Route path='/categoria/:urlParam' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
+          <Route path='/item/:urlParam' element={<ItemDetail arrayProductos={arrayProductos}/>}/>
         </Routes>
       </BrowserRouter>
     </>
@@ -38,10 +40,3 @@ function App() {
 }
 
 export default App
-
-{/* <ArtistasRecomendados grupos={arrayGrupos} />
-          <h2 className="titulo-nuevo">Nuevo</h2>
-          <Nuevo filtrarPorGrupo={filtrarPorGrupo}/>
-          <h2 className="titulo-nuevo">Todos Los Productos</h2>
-          <ItemListContainer productosFiltrados={productosFiltrados} itemAMostrarDetalle={itemAMostrarDetalle}/>
-          <ItemDetail productoAMostrarDetail={productoDetail}/> */}
