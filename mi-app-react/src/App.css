@@ -48,6 +48,7 @@
 .titulo-ver-todo {
     cursor: pointer;
     font-weight: 100;
+    color: black;
 }
 
 .imagen-nuevos-productos {
@@ -119,6 +120,10 @@
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .col-item-list-container {

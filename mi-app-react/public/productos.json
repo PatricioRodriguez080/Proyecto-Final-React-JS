@@ -5,7 +5,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 20.45,
-        "imagen": "../images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png"
+        "imagen": "/images/Seventeen/album/정한X원우 1st Single Album 'THIS MAN'.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 30.23,
-        "imagen": "../images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set).png"
+        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' (Set).png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 80.67,
-        "imagen": "../images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver..png"
+        "imagen": "/images/Seventeen/album/SEVENTEEN BEST ALBUM '17 IS RIGHT HERE' -DEAR Ver..png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 40.32,
-        "imagen": "../images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' (Set).png"
+        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' (Set).png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 50.45,
-        "imagen": "../images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random).png"
+        "imagen": "/images/Seventeen/album/11th Mini Album 'SEVENTEENTH HEAVEN' Carat Ver. (Random).png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 72.40,
-        "imagen": "../images/Seventeen/album/JAPAN BEST ALBUM「ALWAYS YOURS」 Standard.png"
+        "imagen": "/images/Seventeen/album/JAPAN BEST ALBUM「ALWAYS YOURS」 Standard.png"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 42.63,
-        "imagen": "../images/Seventeen/album/10th Mini Album 'FML' (Set).png"
+        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (Set).png"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 93.56,
-        "imagen": "../images/Seventeen/album/10th Mini Album 'FML' (CARAT Ver.).png"
+        "imagen": "/images/Seventeen/album/10th Mini Album 'FML' (CARAT Ver.).png"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 84.76,
-        "imagen": "../images/Seventeen/album/4th Album 'Face the Sun' (Set).png"
+        "imagen": "/images/Seventeen/album/4th Album 'Face the Sun' (Set).png"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "grupo": "Seventeen",
         "categoria": "album",
         "precio": 87.23,
-        "imagen": "../images/Seventeen/album/8th Mini Album 'Your Choice' (Random).jpg"
+        "imagen": "/images/Seventeen/album/8th Mini Album 'Your Choice' (Random).jpg"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "../images/Seventeen/merch/HAPPY HOSHI DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY HOSHI DAY BIRTHDAY BOX VER.3.png"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "../images/Seventeen/merch/HAPPY WONWOO DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY WONWOO DAY BIRTHDAY BOX VER.3.png"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "../images/Seventeen/merch/HAPPY MINGYU DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY MINGYU DAY BIRTHDAY BOX VER.3.png"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "../images/Seventeen/merch/HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY SEUNGKWAN DAY BIRTHDAY BOX VER.3.png"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 10.23,
-        "imagen": "../images/Seventeen/merch/HAPPY WOOZI DAY BIRTHDAY BOX VER.3.png"
+        "imagen": "/images/Seventeen/merch/HAPPY WOOZI DAY BIRTHDAY BOX VER.3.png"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 9.43,
-        "imagen": "../images/Seventeen/merch/Going Company Diary.png"
+        "imagen": "/images/Seventeen/merch/Going Company Diary.png"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 12.49,
-        "imagen": "../images/Seventeen/merch/[THE 8] Cozy Set.png"
+        "imagen": "/images/Seventeen/merch/[THE 8] Cozy Set.png"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 20.90,
-        "imagen": "../images/Seventeen/merch/THIS MAN SS T-Shirt.png"
+        "imagen": "/images/Seventeen/merch/THIS MAN SS T-Shirt.png"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 12.87,
-        "imagen": "../images/Seventeen/merch/[WOOZI] Universe Factory Rug.png"
+        "imagen": "/images/Seventeen/merch/[WOOZI] Universe Factory Rug.png"
     },
     {
         "id": 20,
@@ -157,7 +157,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 16.92,
-        "imagen": "../images/Seventeen/merch/[HOSHI] Plush Keyring.png"
+        "imagen": "/images/Seventeen/merch/[HOSHI] Plush Keyring.png"
     },
     {
         "id": 21,
@@ -165,7 +165,7 @@
         "grupo": "Seventeen",
         "categoria": "merch",
         "precio": 90.82,
-        "imagen": "../images/Seventeen/merch/[WONWOO] Love Packed Keyboard.png"
+        "imagen": "/images/Seventeen/merch/[WONWOO] Love Packed Keyboard.png"
     },
     {
         "id": 22,
@@ -173,7 +173,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 63.87,
-        "imagen": "../images/Le Sserafim/album/2nd Mini Album 'ANTIFRAGILE' (COMPACT Ver.) Set.png"
+        "imagen": "/images/Le Sserafim/album/2nd Mini Album 'ANTIFRAGILE' (COMPACT Ver.) Set.png"
     },
     {
         "id": 23,
@@ -181,7 +181,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 63.71,
-        "imagen": "../images/Le Sserafim/album/JAPAN 1st Single [FEARLESS] Standard.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 1st Single [FEARLESS] Standard.png"
     },
     {
         "id": 24,
@@ -189,7 +189,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 30.98,
-        "imagen": "../images/Le Sserafim/album/3rd Mini Album 'EASY' (COMPACT ver.) Random.png"
+        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (COMPACT ver.) Random.png"
     },
     {
         "id": 25,
@@ -197,7 +197,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 37.42,
-        "imagen": "../images/Le Sserafim/album/3rd Mini Album 'EASY' (Set).png"
+        "imagen": "/images/Le Sserafim/album/3rd Mini Album 'EASY' (Set).png"
     },
     {
         "id": 26,
@@ -205,7 +205,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 62.46,
-        "imagen": "../images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Standard Edition.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Standard Edition.png"
     },
     {
         "id": 27,
@@ -213,7 +213,7 @@
         "grupo": "Le Sserafim",
         "categoria": "album",
         "precio": 25.42,
-        "imagen": "../images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Solo Jacket.png"
+        "imagen": "/images/Le Sserafim/album/JAPAN 2nd Single [UNFORGIVEN] Solo Jacket.png"
     },
     {
         "id": 28,
@@ -221,7 +221,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.63,
-        "imagen": "../images/Le Sserafim/merch/Cut-Out Neck Bra Top (Black).png"
+        "imagen": "/images/Le Sserafim/merch/Cut-Out Neck Bra Top (Black).png"
     },
     {
         "id": 29,
@@ -229,7 +229,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.74,
-        "imagen": "../images/Le Sserafim/merch/Oversized Shorts (Light grey).png"
+        "imagen": "/images/Le Sserafim/merch/Oversized Shorts (Light grey).png"
     },
     {
         "id": 30,
@@ -237,7 +237,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 20.74,
-        "imagen": "../images/Le Sserafim/merch/Double Layer Shorts (Black) - Women's.png"
+        "imagen": "/images/Le Sserafim/merch/Double Layer Shorts (Black) - Women's.png"
     },
     {
         "id": 31,
@@ -245,7 +245,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 22.81,
-        "imagen": "../images/Le Sserafim/merch/Jersey L-S T-Shirt (Black).png"
+        "imagen": "/images/Le Sserafim/merch/Jersey L-S T-Shirt (Black).png"
     },
     {
         "id": 32,
@@ -253,7 +253,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 30.25,
-        "imagen": "../images/Le Sserafim/merch/Zip-up Hoodie (Melange Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Zip-up Hoodie (Melange Grey).png"
     },
     {
         "id": 33,
@@ -261,7 +261,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 15.37,
-        "imagen": "../images/Le Sserafim/merch/Crop Wind Breaker (Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Crop Wind Breaker (Grey).png"
     },
     {
         "id": 34,
@@ -269,7 +269,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 35.85,
-        "imagen": "../images/Le Sserafim/merch/Track Pants (Grey).png"
+        "imagen": "/images/Le Sserafim/merch/Track Pants (Grey).png"
     },
     {
         "id": 35,
@@ -277,7 +277,7 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 15.83,
-        "imagen": "../images/Le Sserafim/merch/Gym Bag (Fearless Blue).png"
+        "imagen": "/images/Le Sserafim/merch/Gym Bag (Fearless Blue).png"
     },
     {
         "id": 36,
@@ -285,6 +285,6 @@
         "grupo": "Le Sserafim",
         "categoria": "merch",
         "precio": 9.74,
-        "imagen": "../images/Le Sserafim/merch/Ball Cap.png"
+        "imagen": "/images/Le Sserafim/merch/Ball Cap.png"
     }
 ]
