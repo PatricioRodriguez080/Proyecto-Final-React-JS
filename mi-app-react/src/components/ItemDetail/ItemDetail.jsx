@@ -25,8 +25,9 @@ export const ItemDetail = ({ arrayProductos }) => {
             </div>
           </div>
         </div>
-        <div className="row">
-          <img src={productoAMostrar.descripcion1} alt={productoAMostrar.nombre} />
+        <div className="row row-item-detail-descripcion">
+          <h2 className="text-center mb-4">Description</h2>
+          <img src={productoAMostrar.descripcion1} className="imagen-item-detail-descripcion" alt={productoAMostrar.nombre} />
         </div>
       </div>
     </div>
