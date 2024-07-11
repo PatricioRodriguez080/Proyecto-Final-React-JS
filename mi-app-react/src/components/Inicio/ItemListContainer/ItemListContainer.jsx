@@ -2,16 +2,20 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 
 export const ItemListContainer = ({ arrayProductos }) => {
-  const { urlParam } = useParams()
+  const { urlParam, grupoSeleccionado } = useParams()
   const [productosFiltrados, setProductosFiltrados] = useState([])
 
   useEffect(() => {
+    let productosFiltrados = arrayProductos
     if (urlParam) {
-      const productosFiltrados = arrayProductos.filter(producto => producto.categoria === urlParam)
-      setProductosFiltrados(productosFiltrados)
-    }else{
-      setProductosFiltrados(arrayProductos)
+      productosFiltrados = productosFiltrados.filter(producto => producto.categoria === urlParam)
     }
+
+    if (grupoSeleccionado) {
+      productosFiltrados = productosFiltrados.filter(producto => producto.grupo === grupoSeleccionado)
+    }
+
+    setProductosFiltrados(productosFiltrados)
   }, [urlParam, arrayProductos])
 
   return (

@@ -32,7 +32,10 @@ function App() {
           <Route path='/' element={<Inicio arrayGrupos={arrayGrupos} arrayProductos={arrayProductos}/>}/>
 
           <Route path='/categoria/:urlParam' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
+
           <Route path='/item/:urlParam' element={<ItemDetail arrayProductos={arrayProductos}/>}/>
+
+          <Route path='/categoria/:urlParam/:grupoSeleccionado' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
         </Routes>
       </BrowserRouter>
     </>

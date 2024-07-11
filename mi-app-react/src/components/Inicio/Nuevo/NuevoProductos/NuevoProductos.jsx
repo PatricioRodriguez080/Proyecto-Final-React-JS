@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
 
 export const NuevoProductos = ({propGrupo}) => {
     const [arrayProductosNuevos, setArrayProductosNuevos] = useState([])
@@ -24,7 +25,7 @@ export const NuevoProductos = ({propGrupo}) => {
                         <img src={`./images/logo${propGrupo}.png`} className="imagen-nuevos-productos" alt={propGrupo} />
                         <h3 className="ms-3 mb-0">{propGrupo}</h3>
                     </div>
-                    <h4 className="titulo-ver-todo mb-0">Ver todo</h4>
+                    <Link className="titulo-ver-todo mb-0" to={`/categoria/album/${propGrupo}`}>Ver todo</Link>
                 </div>
                 <div className="row container-cards-nuevos-productos">
                     {arrayProductosNuevos
