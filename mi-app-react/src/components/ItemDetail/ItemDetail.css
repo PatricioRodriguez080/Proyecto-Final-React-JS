@@ -17,3 +17,12 @@
 .card-text-item-detail {
     font-size: 1.3rem;
 }
+
+.row-item-detail-descripcion {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-item-detail-descripcion {
+    max-width: 700px;
+}
