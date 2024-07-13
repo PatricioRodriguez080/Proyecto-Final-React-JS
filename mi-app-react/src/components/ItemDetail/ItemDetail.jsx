@@ -11,6 +11,10 @@ export const ItemDetail = ({ arrayProductos }) => {
     setproductoAMostrar(productoEncontrado)
   }, [urlParam, arrayProductos])
 
+  if (!productoAMostrar) {
+    return <p>Producto No Encontrado</p>
+  }
+
   return (
     <div className="container-item-detail">
       <div className="card card-item-detail mb-3">
