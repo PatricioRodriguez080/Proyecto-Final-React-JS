@@ -26,6 +26,12 @@ export const ItemDetail = ({ arrayProductos }) => {
             <div className="card-body card-body-item-detail">
               <h5 className="card-title card-title-item-detail">{productoAMostrar.nombre}</h5>
               <p className="card-text card-text-item-detail">${productoAMostrar.precio}</p>
+              <div className="container-boton-grup d-flex">
+                <i className="fa-solid fa-minus "></i>
+                <p className="mb-0 mx-2">1</p>
+                <i className="fa-solid fa-plus"></i>
+              </div>
+              <button type="button" className="btn btn-item-detail btn-lg">Large button</button>
             </div>
           </div>
         </div>
