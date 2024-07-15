@@ -24,14 +24,14 @@ export const ItemDetail = ({ arrayProductos }) => {
           </div>
           <div className="col-md-7">
             <div className="card-body card-body-item-detail">
-              <h5 className="card-title card-title-item-detail">{productoAMostrar.nombre}</h5>
-              <p className="card-text card-text-item-detail">${productoAMostrar.precio}</p>
-              <div className="container-boton-grup d-flex">
+              <h5 className="card-title card-title-item-detail mb-3">{productoAMostrar.nombre}</h5>
+              <p className="card-text card-text-item-detail mb-3">${productoAMostrar.precio}</p>
+              <div className="container-boton-grup d-flex mb-3">
                 <i className="fa-solid fa-minus "></i>
                 <p className="mb-0 mx-2">1</p>
                 <i className="fa-solid fa-plus"></i>
               </div>
-              <div className="alert alert-dark d-flex align-items-center" role="alert">
+              <div className="alert alert-dark d-flex align-items-center mb-4" role="alert">
                 <i className="fa-solid fa-info-circle me-2"></i>
                 <div>
                   Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.
