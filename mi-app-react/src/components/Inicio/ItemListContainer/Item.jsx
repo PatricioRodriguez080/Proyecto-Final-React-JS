@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Item = ({ producto }) => {
-  const { id, nombre, grupo, precio, imagen } = producto
-
+const Item = ({ id, nombre, grupo, precio, imagen }) => {
   return (
     <div className="col col-item-list-container">
       <Link to={`/item/${id}`}>

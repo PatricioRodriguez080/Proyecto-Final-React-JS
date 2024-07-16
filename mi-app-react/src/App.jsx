@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Navbar } from './components/Navbar/Navbar'
 import ItemListContainer from './components/Inicio/ItemListContainer/ItemListContainer'
 import Inicio  from './components/Inicio/Inicio'
-import { ItemDetail } from './components/ItemDetail/ItemDetail'
+import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer'
 
 function App() {
   const [arrayProductos, setArrayProductos] = useState([])
@@ -33,7 +33,7 @@ function App() {
 
           <Route path='/categoria/:urlParam' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
 
-          <Route path='/item/:urlParam' element={<ItemDetail arrayProductos={arrayProductos}/>}/>
+          <Route path='/item/:urlParam' element={<ItemDetailContainer arrayProductos={arrayProductos}/>}/>
 
           <Route path='/categoria/:urlParam/:grupoSeleccionado' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
         </Routes>
