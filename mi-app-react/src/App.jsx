@@ -2,7 +2,7 @@ import './App.css'
 import React, { useEffect, useState } from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Navbar } from './components/Navbar/Navbar'
-import { ItemListContainer } from './components/Inicio/ItemListContainer/ItemListContainer'
+import ItemListContainer from './components/Inicio/ItemListContainer/ItemListContainer'
 import Inicio  from './components/Inicio/Inicio'
 import { ItemDetail } from './components/ItemDetail/ItemDetail'
 
