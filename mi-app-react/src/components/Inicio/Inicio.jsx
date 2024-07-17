@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carrousel } from './Carrousel/Carrousel'
 import { ArtistasRecomendados } from './ArtistasRecomendados/ArtistasRecomendados'
-import { Nuevo } from './Nuevo/Nuevo'
+import Nuevo from './Nuevo/Nuevo'
 import ItemListContainer from './ItemListContainer/ItemListContainer'
 
 const Inicio = ({ arrayGrupos, arrayProductos }) => {
@@ -12,7 +12,7 @@ const Inicio = ({ arrayGrupos, arrayProductos }) => {
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo />
       <h2 className="titulo-nuevo">Todos Los Productos</h2>
-      <ItemListContainer arrayProductos={arrayProductos}/>
+      <ItemListContainer arrayProductos={arrayProductos} />
     </>
   )
 }

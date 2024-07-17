@@ -1,12 +1,14 @@
 import React from 'react'
-import { NuevoProductos } from './NuevoProductos/NuevoProductos'
+import NuevoProductosContainer from './NuevoProductosContainer/NuevoProductosContainer'
 
 export const Nuevo = () => {
   return (
     <>
-      <NuevoProductos propGrupo="Seventeen"/>
-      <NuevoProductos propGrupo="Le Sserafim"/>
-      <NuevoProductos propGrupo="Tomorrow X Together"/>
+      <NuevoProductosContainer propGrupo="Seventeen" />
+      <NuevoProductosContainer propGrupo="Le Sserafim" />
+      <NuevoProductosContainer propGrupo="Tomorrow X Together" />
     </>
   )
 }
+
+export default Nuevo

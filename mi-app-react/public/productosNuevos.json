@@ -4,83 +4,119 @@
         "grupo": "Seventeen",
         "nombre": "5th Mini Album 'YOU MAKE MY DAY' (Set)",
         "imagen": "./images/Seventeen/nuevo/1.png",
-        "precio": 15.32
+        "precio": 15.32,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/e68df76b32f744d2f2de177d1a19fe3e.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 2,
         "grupo": "Seventeen",
         "nombre": "SEVENTEEN 9th Mini Album 'Attacca' (CARAT Ver.)",
         "imagen": "./images/Seventeen/nuevo/2.jpg",
-        "precio": 20.23
+        "precio": 20.23,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/0cd66fa613fbda8de8e6cb2d7168fc95.jpg?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/ead539ac4d66c4d98f05cd51916c66b6.jpg?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 3,
         "grupo": "Seventeen",
         "nombre": "4th Album Repackage 'SECTOR 17' (Random)",
         "imagen": "./images/Seventeen/nuevo/3.png",
-        "precio": 10.17
+        "precio": 10.17,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/e34bf4d457e6b8b4d53a7a65b252f1a5.png?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/188afadb09293ba166e78f3fc2fa4e11.png?q=95&w=720",
+        "descripcion3": "https://cdn-contents.weverseshop.io/public/shop/eb2a123f7f320728d7775d8c2a6c2630.png?q=95&w=720"
     },
     {
         "id": 4,
         "grupo": "Seventeen",
         "nombre": "JAPAN BEST ALBUM「ALWAYS YOURS」 Standard",
         "imagen": "./images/Seventeen/nuevo/4.png",
-        "precio": 30.24
+        "precio": 30.24,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/27aebfd760d03d6cf5c9112a0cf9cb6a.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 5,
         "grupo": "Le Sserafim",
         "nombre": "JAPAN 2nd Single [UNFORGIVEN] Standard Edition",
         "imagen": "./images/Le Sserafim/nuevo/1.png",
-        "precio": 20.19
+        "precio": 20.19,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/ebe8dc9f55a2b7ac00a3cf8d464f3b8e.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 6,
         "grupo": "Le Sserafim",
         "nombre": "3rd Mini Album 'EASY' (COMPACT ver.) Set",
         "imagen": "./images/Le Sserafim/nuevo/2.png",
-        "precio": 35.43
+        "precio": 35.43,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/0aa0cc3df2b7956e3a42a6fc9027364d.jpg?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 7,
         "grupo": "Le Sserafim",
         "nombre": "JAPAN 1st Single [FEARLESS] Solo Jacket",
         "imagen": "./images/Le Sserafim/nuevo/3.png",
-        "precio": 25.17
+        "precio": 25.17,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/dfea391bcce6c0969d0a3a015ad323eb.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 8,
         "grupo": "Le Sserafim",
         "nombre": "JAPAN 1st Single [FEARLESS] Standard Edition",
         "imagen": "./images/Le Sserafim/nuevo/4.png",
-        "precio": 20.12
+        "precio": 20.12,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/c8f2ebb0ed5546e5b3fe2dab5aac8293.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 9,
         "grupo": "Tomorrow X Together",
         "nombre": "JP 4th Single [CHIKAI] Limited Edition B",
         "imagen": "./images/Tomorrow X Together/nuevo/1.png",
-        "precio": 16.23
+        "precio": 16.23,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/12e4a77c450e7e95f6543e6ea6582969.png?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 10,
         "grupo": "Tomorrow X Together",
         "nombre": "minisode 3: TOMORROW (Light Ver.) (Set)",
         "imagen": "./images/Tomorrow X Together/nuevo/2.png",
-        "precio": 51.66
+        "precio": 51.66,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/f9f324d949fd22bb072c92fcd3449545.jpg?q=95&w=720",
+        "descripcion2": "https://cdn-contents.weverseshop.io/public/shop/66f0c0f186212fa634b36cabcd95616c.jpg?q=95&w=720",
+        "descripcion3": ""
     },
     {
         "id": 11,
         "grupo": "Tomorrow X Together",
         "nombre": "The Name Chapter: TEMPTATION Lullaby ver. (Random)",
         "imagen": "./images/Tomorrow X Together/nuevo/3.png",
-        "precio": 9.67
+        "precio": 9.67,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/e84fb01391246d3a7745da94c08fd443.jpg?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     },
     {
         "id": 12,
         "grupo": "Tomorrow X Together",
         "nombre": "The Chaos Chapter: FIGHT OR ESCAPE (Random)",
         "imagen": "./images/Tomorrow X Together/nuevo/4.jpg",
-        "precio": 14.67
+        "precio": 14.67,
+        "descripcion1": "https://cdn-contents.weverseshop.io/public/shop/144d299ef63a14f95d95c76238060941.jpg?q=95&w=720",
+        "descripcion2": "",
+        "descripcion3": ""
     }
 ]
