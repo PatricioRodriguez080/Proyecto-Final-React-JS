@@ -8,6 +8,7 @@ import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer'
 
 function App() {
   const [arrayProductos, setArrayProductos] = useState([])
+  const [arrayProductosNuevos, setArrayProductosNuevos] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,6 +18,19 @@ function App() {
         setArrayProductos(data)
       } catch (error) {
         console.log("Error al traer productos")
+      }
+    }
+    fetchData()
+  }, [])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/productosNuevos.json")
+        const data = await response.json()
+        setArrayProductosNuevos(data)
+      } catch (error) {
+        console.log("Error al traer productos nuevos")
       }
     }
     fetchData()
@@ -34,6 +48,7 @@ function App() {
           <Route path='/categoria/:urlParam' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
 
           <Route path='/item/:urlParam' element={<ItemDetailContainer arrayProductos={arrayProductos}/>}/>
+          <Route path='/item/nuevo/:urlParam' element={<ItemDetailContainer arrayProductos={arrayProductosNuevos}/>}/>
 
           <Route path='/categoria/:urlParam/:grupoSeleccionado' element={<ItemListContainer arrayProductos={arrayProductos}/>}/>
         </Routes>
