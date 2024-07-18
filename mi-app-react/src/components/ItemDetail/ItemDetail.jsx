@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ItemDetail.css'
+import { CartContext } from '../../context/CartContext'
 
-const ItemDetail = ({ nombre, precio, imagen, descripcion1 }) => {
+const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
+  const { agregarProductosCarrito } = useContext(CartContext)
+
   return (
     <div className="container-item-detail">
       <div className="card card-item-detail mb-3">
@@ -24,7 +27,7 @@ const ItemDetail = ({ nombre, precio, imagen, descripcion1 }) => {
                   Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.
                 </div>
               </div>
-              <button type="button" className="btn btn-item-detail btn-lg">Large button</button>
+              <button type="button" className="btn btn-item-detail btn-lg" onClick={() => agregarProductosCarrito(id, 1)}>Large button</button>
             </div>
           </div>
         </div>
