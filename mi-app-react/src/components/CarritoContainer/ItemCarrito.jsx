@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemCarrito = ({ nombre, imagen, cantidad, precioTotal }) => {
     return (
-        <div className="col-lg-6 col-md-12">
+        <div className="col-lg-6 col-md-12 col-carrito">
             <div className="card card-carrito mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
