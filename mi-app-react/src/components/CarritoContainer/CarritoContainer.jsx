@@ -1,18 +1,18 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
+import ItemCarrito from './ItemCarrito'
+import './Carrito.css'
 
 const CarritoContainer = () => {
     const { carrito } = useContext(CartContext)
-    console.log(carrito);
+
     return (
-        <div className="container">
-            {carrito.map((producto) => (
-                <div key={producto.id}>
-                    <h2>{producto.id}</h2>
-                    <h2>{producto.cantidad}</h2>
-                    <h2>{producto.precioTotal}</h2>
-                </div>
-            ))}
+        <div className="container-carrito">
+            <div className="row row-carrito-container">
+                {carrito.map(producto => (
+                    <ItemCarrito key={producto.id} {...producto} />
+                ))}
+            </div>
         </div>
     )
 }
