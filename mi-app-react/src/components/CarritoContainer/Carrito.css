@@ -5,29 +5,17 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.row-carrito-container {
-    margin: 30px;
+.card-compra {
+    margin: auto;
+    width: 50%;
 }
-
-.col-carrito {
-    margin-top: 30px;
-}
-
-.card-carrito {
-    width: 100%;
-    margin-left: 0;
-    border-radius: 0
-}
-
-
-.imagen-producto-carrito {
-    max-width: 100%;
-    height: auto;
-}
-
 
 @media only screen and (max-width: 600px) {
     .container-carrito {
         margin: 0;
+    }
+
+    .card-compra {
+        width: 100%;
     }
 }

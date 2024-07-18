@@ -8,11 +8,9 @@ const CarritoContainer = () => {
 
     return (
         <div className="container-carrito">
-            <div className="row row-carrito-container">
-                {carrito.map(producto => (
-                    <ItemCarrito key={producto.id} {...producto} />
-                ))}
-            </div>
+            {carrito.map(producto => (
+                <ItemCarrito key={producto.id} {...producto} />
+            ))}
         </div>
     )
 }
