@@ -25,7 +25,7 @@ const CartContextProvider = ({children, arrayProductos}) => {
                         ...item,
                         cantidad: item.cantidad + cantidad,
                         precioTotal: item.precioTotal + (producto.precio * cantidad)
-                    };
+                    }
                 } else {
                     return item
                 }
@@ -35,9 +35,15 @@ const CartContextProvider = ({children, arrayProductos}) => {
         }
     }
 
-    console.log(carrito);
+    const removeItem = (id) => {
+        setCarrito(carrito.filter((producto) => producto.id !== id))
+    }
 
-    return <CartContext.Provider value={{carrito, isInCart, agregarProductosCarrito}}>
+    const clearCart = () => {
+        setCarrito([])
+    }
+
+    return <CartContext.Provider value={{carrito, isInCart, agregarProductosCarrito, removeItem, clearCart}}>
         {children}
     </CartContext.Provider>
 }

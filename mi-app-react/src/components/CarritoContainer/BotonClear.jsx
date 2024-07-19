@@ -1,0 +1,14 @@
+import React, { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
+
+const BotonClear = () => {
+    const { clearCart, carrito } = useContext(CartContext)
+
+    return (
+        <div className="container-boton-carrito">
+            {carrito.length > 0 && (<button type="button" className="btn btn-item-detail btn-lg mb-4" onClick={clearCart}>Eliminar todos los productos</button>)}
+        </div>
+    )
+}
+
+export default BotonClear
