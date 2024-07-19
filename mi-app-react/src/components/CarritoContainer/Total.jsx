@@ -6,7 +6,7 @@ const Total = () => {
 
     return (
         <div>
-            <h2>Total: {totalAPagar}</h2>
+            <h2 className='text-center'>Total: ${totalAPagar.toFixed(2)}</h2>
         </div>
     )
 }

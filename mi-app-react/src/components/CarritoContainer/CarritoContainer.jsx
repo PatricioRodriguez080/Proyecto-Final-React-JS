@@ -10,7 +10,7 @@ const CarritoContainer = () => {
 
     return (
         <div className="container-carrito">
-            {carrito.length > 0 ? (<h2 className='text-center mb-4'>Sus Productos</h2>) : (<h2 className='text-center mb-4'>No se encontraron productos</h2>)}
+            {carrito.length > 0 ? (<h2 className='text-center mb-4'>Sus Productos</h2>) : (<h2 className='text-center mb-4 titulo-no-encontrado'>No se encontraron productos</h2>)}
 
             {carrito.map(producto => (
                 <ItemCarrito key={producto.id} {...producto} />

@@ -17,6 +17,14 @@
     width: 100%;
 }
 
+.btn-item-detail {
+    margin-left: 1rem;
+}
+
+.titulo-no-encontrado {
+    padding: 200px 0;
+}
+
 @media only screen and (max-width: 768px) {
 
     .navbar {
