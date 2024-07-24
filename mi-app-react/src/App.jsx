@@ -7,6 +7,7 @@ import ItemListContainer from './components/Inicio/ItemListContainer/ItemListCon
 import Inicio from './components/Inicio/Inicio'
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer'
 import CarritoContainer from './components/CarritoContainer/CarritoContainer'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [arrayProductos, setArrayProductos] = useState([])
@@ -53,6 +54,7 @@ function App() {
             <Route path='/categoria/:urlParam/:grupoSeleccionado' element={<ItemListContainer arrayProductos={arrayProductos} />} />
             <Route path='/carrito' element={<CarritoContainer/>} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </CartContextProvider>
     </>

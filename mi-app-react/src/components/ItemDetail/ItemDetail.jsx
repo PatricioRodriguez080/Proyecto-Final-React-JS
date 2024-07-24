@@ -29,7 +29,7 @@ const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
                   Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.
                 </div>
               </div>
-              <button type="button" className="btn btn-item-detail btn-lg" onClick={() => agregarProductosCarrito(id, count)}>Large button</button>
+              <button type="button" className="btn btn-item-detail btn-lg" onClick={() => agregarProductosCarrito(id, count)}>Agregar al carrito</button>
             </div>
           </div>
         </div>
