@@ -1,23 +1,40 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemList from './ItemList'
+import { collection, getFirestore, where, query, getDocs } from "firebase/firestore"
 
-const ItemListContainer = ({ arrayProductos }) => {
+const ItemListContainer = () => {
   const { urlParam, grupoSeleccionado } = useParams()
   const [productosFiltrados, setProductosFiltrados] = useState([])
 
   useEffect(() => {
-    let productosFiltrados = arrayProductos
-    if (urlParam) {
-      productosFiltrados = productosFiltrados.filter(producto => producto.categoria === urlParam)
+    const fetchData = async () => {
+      try {
+        const db = getFirestore()
+        let itemQuery = collection(db, "productos")
+
+        if (urlParam) {
+          itemQuery = query(itemQuery, where("categoria", "==", urlParam))
+        }
+
+        if (grupoSeleccionado) {
+          itemQuery = query(itemQuery, where("grupo", "==", grupoSeleccionado))
+        }
+
+        const snapshot = await getDocs(itemQuery)
+
+        if (snapshot.size === 0) {
+          console.log("Sin resultados")
+        } else {
+          setProductosFiltrados(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })))
+        }
+      } catch (error) {
+        console.error("Error al obtener los datos: ", error)
+      }
     }
 
-    if (grupoSeleccionado) {
-      productosFiltrados = productosFiltrados.filter(producto => producto.grupo === grupoSeleccionado)
-    }
-
-    setProductosFiltrados(productosFiltrados)
-  }, [urlParam, grupoSeleccionado, arrayProductos])
+    fetchData()
+  }, [urlParam, grupoSeleccionado])
 
   return (
     <div className="container-item-list-container">
