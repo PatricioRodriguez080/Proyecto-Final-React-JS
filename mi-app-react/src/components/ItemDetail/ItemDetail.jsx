@@ -8,7 +8,6 @@ const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
   const { count, incrementar, decrementar } = useCount(1,1,10)
 
   return (
-    <div className="container-item-detail">
       <div className="card card-item-detail mb-3">
         <div className="row row-item-detail g-0">
           <div className="col-md-5">
@@ -38,7 +37,6 @@ const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
           <img src={descripcion1} className="imagen-item-detail-descripcion" alt={nombre} />
         </div>
       </div>
-    </div>
   )
 }
 
