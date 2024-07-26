@@ -4,7 +4,7 @@ import { ArtistasRecomendados } from './ArtistasRecomendados/ArtistasRecomendado
 import Nuevo from './Nuevo/Nuevo'
 import ItemListContainer from './ItemListContainer/ItemListContainer'
 
-const Inicio = ({ arrayGrupos, arrayProductos }) => {
+const Inicio = ({ arrayGrupos }) => {
   return (
     <>
       <Carrousel />
@@ -12,7 +12,7 @@ const Inicio = ({ arrayGrupos, arrayProductos }) => {
       <h2 className="titulo-nuevo">Nuevo</h2>
       <Nuevo />
       <h2 className="titulo-nuevo">Todos Los Productos</h2>
-      <ItemListContainer arrayProductos={arrayProductos} />
+      <ItemListContainer />
     </>
   )
 }
