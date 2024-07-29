@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <CartContextProvider arrayProductos={arrayProductos}>
+      <CartContextProvider>
         <BrowserRouter>
           <Navbar />
           <Routes>
