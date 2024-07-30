@@ -8,6 +8,7 @@ import Inicio from './components/Inicio/Inicio'
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer'
 import CarritoContainer from './components/CarritoContainer/CarritoContainer'
 import Footer from './components/Footer/Footer'
+import Checkout from './components/Checkout/Checkout'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='/item/nuevo/:urlParam' element={<ItemDetailContainer />} />
             <Route path='/categoria/:urlParam/:grupoSeleccionado' element={<ItemListContainer />} />
             <Route path='/carrito' element={<CarritoContainer/>} />
+            <Route path='/carrito/checkout' element={<Checkout/>} />
           </Routes>
           <Footer/>
         </BrowserRouter>
