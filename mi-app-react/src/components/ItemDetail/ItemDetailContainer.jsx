@@ -32,7 +32,7 @@ const ItemDetailContainer = () => {
   }, [urlParam])
 
   return (
-    <div className="container-item-detail">
+    <div className="container-item-detail container-custom">
       {loading ? <SkeletonItemDetail /> : <ItemDetail {...productoAMostrar} /> }
     </div>
   )

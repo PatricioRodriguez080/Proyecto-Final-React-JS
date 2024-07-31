@@ -7,7 +7,7 @@ import SkeletonNuevosProductos from '../../../Skeletons/SkeletonNuevosProductos'
 
 const NuevoProductosList = ({ productos, propGrupo, loading }) => {
   return (
-    <div className="container-nuevo">
+    <div className="container-nuevo container-custom">
       <div className="container-nuevos-productos">
         <div className="container-titulo-nuevos-productos d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center">

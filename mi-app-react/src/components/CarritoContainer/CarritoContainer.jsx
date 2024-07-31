@@ -10,7 +10,7 @@ const CarritoContainer = () => {
     const { carrito } = useContext(CartContext)
 
     return (
-        <div className="container-carrito">
+        <div className="container-carrito container-custom">
             {carrito.length > 0 ? (
                 <>
                     <h2 className='text-center mb-4 pt-4'>Sus Productos</h2>

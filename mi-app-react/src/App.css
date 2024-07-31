@@ -26,11 +26,12 @@
     font-size: 13px;
 }
 
-.item-list-container {
-    background-color: #ffffff;
-    margin: 0 50px;
+.container-custom {
+    margin: 0px 50px 40px 50px;
     border-radius: 25px;
+    background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
 }
 
 /* Nuevo (container y productos nuevos) */
@@ -54,14 +55,6 @@
 .imagen-nuevos-productos {
     width: 60px;
     border-radius: 100%;
-}
-
-.container-nuevo {
-    margin: 0px 50px 40px 50px;
-    border-radius: 25px;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    padding: 20px;
 }
 
 .container-nuevos-productos {
@@ -114,14 +107,6 @@
 
 /* Item List Container */
 
-.container-item-list-container {
-    margin: 0px 50px 40px 50px;
-    border-radius: 25px;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    padding: 20px;
-}
-
 a {
     text-decoration: none;
 }
@@ -149,6 +134,10 @@ a {
         margin: 0;
     }
 
+    .container-custom {
+        margin: 10px;
+    }
+
     .container-artistas-recomendados {
         margin: 0;
         /* REVISAR ESTE QUE NO ANDA */
@@ -156,10 +145,6 @@ a {
 
     .titulo-nuevo {
         margin: 0 10px;
-    }
-
-    .container-nuevo {
-        margin: 10px;
     }
 }
 

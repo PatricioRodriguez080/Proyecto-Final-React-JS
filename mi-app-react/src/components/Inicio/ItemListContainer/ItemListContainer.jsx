@@ -41,7 +41,7 @@ const ItemListContainer = () => {
   }, [urlParam, grupoSeleccionado])
 
   return (
-    <div className="container-item-list-container">
+    <div className="container-item-list-container container-custom">
       {loading ? <SkeletonProductos /> : <ItemList productos={productosFiltrados} />}
     </div>
   )
