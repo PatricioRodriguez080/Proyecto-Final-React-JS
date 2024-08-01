@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
 import './ItemDetail.css'
-import { CartContext } from '../../context/CartContext'
 import { useCount } from '../../hooks/useCount'
+import AddItemButton from './AddItemButton'
+import Description from './Description'
+import ItemQuantitySelector from './ItemQuantitySelector'
 
 const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
-  const { agregarProductosCarrito } = useContext(CartContext)
   const { count, incrementar, decrementar } = useCount(1,1,10)
 
   return (
@@ -17,24 +17,20 @@ const ItemDetail = ({ id, nombre, precio, imagen, descripcion1 }) => {
             <div className="card-body card-body-item-detail">
               <h5 className="card-title card-title-item-detail mb-3">{nombre}</h5>
               <p className="card-text card-text-item-detail mb-3">${precio}</p>
-              <div className="container-boton-grup d-flex mb-3">
-                <i className="fa-solid fa-minus " onClick={decrementar}></i>
-                <p className="mb-0 mx-2">{count}</p>
-                <i className="fa-solid fa-plus" onClick={incrementar}></i>
-              </div>
+              <ItemQuantitySelector decrementar={decrementar} count={count} incrementar={incrementar} />
               <div className="alert alert-dark d-flex align-items-center mb-4" role="alert">
                 <i className="fa-solid fa-info-circle me-2"></i>
                 <div>
                   Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.
                 </div>
               </div>
-              <button type="button" className="btn btn-item-detail btn-lg" onClick={() => agregarProductosCarrito(id, count)}>Agregar al carrito</button>
+              <AddItemButton id={id} count={count} />
             </div>
           </div>
         </div>
         <div className="row row-item-detail-descripcion">
           <h2 className="text-center mb-4">Description</h2>
-          <img src={descripcion1} className="imagen-item-detail-descripcion" alt={nombre} />
+          <Description descripcion1={descripcion1} nombre={nombre} />
         </div>
       </div>
   )

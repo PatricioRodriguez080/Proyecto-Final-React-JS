@@ -18,9 +18,6 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/categoria/merch">Merch</Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Link3</a>
-            </li>
           </ul>
         </div>
         <div className="position-absolute top-0 end-0">
