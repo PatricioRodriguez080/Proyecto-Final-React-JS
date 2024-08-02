@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const BotonCheckout = () => {
   return (
-    <button type="button" className="btn btn-item-detail me-2">
-        <Link className="boton-checkout" to="/carrito/checkout">Checkout</Link>
-    </button>
+    <Link className="boton-checkout" to="/carrito/checkout">
+      <button type="button" className="btn boton-custom me-2">Checkout</button>
+    </Link>
   )
 }
 

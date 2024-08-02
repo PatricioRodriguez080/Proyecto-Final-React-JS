@@ -17,7 +17,7 @@ const ItemCarrito = ({ id, nombre, imagen, cantidad, precioTotal }) => {
                             <p className="card-text">Unidades: {cantidad}</p>
                             <p className="card-text">${precioTotal.toFixed(2)}</p>
                         </div>
-                        <button type="button" className="btn btn-item-detail btn-eliminar btn-lg" onClick={() => removeItem(id)}>Eliminar</button>
+                        <button type="button" className="btn btn-eliminar boton-custom btn-lg" onClick={() => removeItem(id)}>Eliminar</button>
                     </div>
                 </div>
             </div>

@@ -36,12 +36,3 @@
     padding: 1px 2px;
     cursor: pointer;
 }
-
-.btn-item-detail {
-    background-color: #E3B5B5;
-    color: black;
-}
-
-.btn-item-detail:hover {
-    background-color: #D28989;
-}

@@ -34,6 +34,14 @@
     padding: 20px;
 }
 
+.boton-custom {
+    background-color: #E3B5B5;
+}
+
+.boton-custom:hover {
+    background-color: #D28989;
+}
+
 /* Nuevo (container y productos nuevos) */
 
 .container-titulo-nuevos-productos {
