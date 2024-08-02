@@ -9,6 +9,7 @@ const CartContextProvider = ({ children }) => {
     const [carrito, setCarrito] = useState([])
     const [contadorItems, setContadorItems] = useState(0)
     const [totalAPagar, setTotalAPagar] = useState(0)
+    const [orderId, setOrderId] = useState(null)
 
     const isInCart = (id) => {
         return carrito.some(producto => producto.id === id)
@@ -64,7 +65,7 @@ const CartContextProvider = ({ children }) => {
     }, [carrito])
 
     return (
-        <CartContext.Provider value={{ carrito, isInCart, agregarProductosCarrito, removeItem, clearCart, contadorItems, totalAPagar }}>
+        <CartContext.Provider value={{ carrito, isInCart, agregarProductosCarrito, removeItem, clearCart, contadorItems, totalAPagar, orderId, setOrderId }}>
             {children}
             <ToastContainer position="bottom-right"  hideProgressBar autoClose={1000} />
         </CartContext.Provider>

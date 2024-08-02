@@ -3,10 +3,9 @@ import { CartContext } from '../../context/CartContext'
 import { addDoc, collection, getFirestore } from 'firebase/firestore'
 
 const CheckoutForm = () => {
-    const { carrito, totalAPagar, clearCart } = useContext(CartContext)
+    const { carrito, totalAPagar, clearCart, orderId, setOrderId } = useContext(CartContext)
     const [nombre, setNombre] = useState("")
     const [email, setEmail] = useState("")
-    const [orderId, setOrderId] = useState(null)
 
     const generarOrden = async () => {
         const orden = {
@@ -28,24 +27,17 @@ const CheckoutForm = () => {
     }
 
     return (
-        orderId ? (
-            <div className="alert alert-light" role="alert">
-                <h2>Gracias por su compra!!</h2>
-                <p>Su orden de compra es: <b>{orderId}</b></p>
+        <form>
+            <div className="mb-3">
+                <label htmlFor="nombre" className="form-label">Nombre</label>
+                <input type="text" className="form-control" value={nombre} onChange={(e) => setNombre(e.target.value)} />
             </div>
-        ) : (
-            <form>
-                <div className="mb-3">
-                    <label htmlFor="nombre" className="form-label">Nombre</label>
-                    <input type="text" className="form-control" value={nombre} onChange={(e) => setNombre(e.target.value)} />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} />
-                </div>
-                <button type="button" className="btn btn-primary" onClick={generarOrden}>Generar orden</button>
-            </form>
-        )
+            <div className="mb-3">
+                <label htmlFor="email" className="form-label">Email</label>
+                <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} />
+            </div>
+            <button type="button" className="btn btn-primary" onClick={generarOrden}>Generar orden</button>
+        </form>
     )
 }
 
