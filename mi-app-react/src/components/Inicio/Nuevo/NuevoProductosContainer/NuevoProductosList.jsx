@@ -1,7 +1,6 @@
 import React from 'react'
 import NuevoProductoItem from './NuevoProductoItem'
 import { Link } from 'react-router-dom'
-import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import SkeletonNuevosProductos from '../../../Skeletons/SkeletonNuevosProductos'
 

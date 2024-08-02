@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NuevoProductosList from './NuevoProductosList'
 import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore'
-import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 const NuevoProductosContainer = ({ propGrupo }) => {
