@@ -19,12 +19,11 @@ const CheckoutForm = () => {
         const ordenesCollection = collection(db, "ordenes")
 
         try {
-            //const response = await addDoc(ordenesCollection, orden)
-            //setOrderId(response.id)
-            setOrderId(123)
+            const response = await addDoc(ordenesCollection, orden)
+            setOrderId(response.id)
             clearCart()
         } catch (error) {
-            console.error("Error adding document: ", error)
+            console.error("Error al añadir el documento: ", error)
         }
     }
 
