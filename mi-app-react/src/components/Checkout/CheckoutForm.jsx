@@ -36,7 +36,7 @@ const CheckoutForm = () => {
                 <label htmlFor="email" className="form-label">Email</label>
                 <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
-            <button type="button" className="btn btn-checkout boton-custom" onClick={generarOrden}>Generar orden</button>
+            <button type="button" className="btn btn-checkout boton-custom-primario" onClick={generarOrden}>Generar orden</button>
         </form>
     )
 }

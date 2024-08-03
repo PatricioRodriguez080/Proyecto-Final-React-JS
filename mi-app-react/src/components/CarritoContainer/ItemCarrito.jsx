@@ -1,12 +1,12 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
 
-const ItemCarrito = ({ id, nombre, imagen, cantidad, precioTotal }) => {
+const ItemCarrito = ({ id, nombre, imagen, cantidad, precioTotal, clase }) => {
     const { removeItem } = useContext(CartContext)
-
+    
     return (
         <div className="tarjeta-producto-carrito">
-            <div className="card card-compra mb-3">
+            <div className={`card card-compra ${clase} mb-3`}>
                 <div className="row g-0">
                     <div className="col">
                         <img src={imagen} className="img-fluid img-producto-carrito" alt={nombre}/>
@@ -17,7 +17,7 @@ const ItemCarrito = ({ id, nombre, imagen, cantidad, precioTotal }) => {
                             <p className="card-text">Unidades: {cantidad}</p>
                             <p className="card-text">${precioTotal.toFixed(2)}</p>
                         </div>
-                        <button type="button" className="btn btn-eliminar boton-custom btn-lg" onClick={() => removeItem(id)}>Eliminar</button>
+                        <button type="button" className="btn btn-eliminar boton-custom-secundario btn-lg" onClick={() => removeItem(id)}>Eliminar</button>
                     </div>
                 </div>
             </div>

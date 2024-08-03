@@ -34,11 +34,20 @@
     padding: 20px;
 }
 
-.boton-custom {
+.boton-custom-primario {
     background-color: #E3B5B5;
 }
 
-.boton-custom:hover {
+.boton-custom-primario:hover {
+    background-color: #D28989;
+}
+
+.boton-custom-secundario {
+    background-color: white;
+    border: solid 2px #E3B5B5;
+}
+
+.boton-custom-secundario:hover {
     background-color: #D28989;
 }
 

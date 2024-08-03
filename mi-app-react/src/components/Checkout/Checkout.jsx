@@ -19,7 +19,7 @@ const Checkout = () => {
                     </div>
                     <div className="col-md-8 col-checkout">
                         {carrito.map(producto => (
-                            <ItemCarrito key={producto.id} {...producto} />
+                            <ItemCarrito key={producto.id} {...producto} clase="width-custom" />
                         ))}
                     </div>
                 </div>

@@ -23,6 +23,10 @@
     text-decoration: none;
 }
 
+.width-custom {
+    min-width: 70%;
+}
+
 @media only screen and (max-width: 768px) {
     .card-compra {
         width: 100%;
