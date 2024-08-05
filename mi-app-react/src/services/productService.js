@@ -1,4 +1,4 @@
-import { getFirestore, collection, query, where, getDocs, getDoc, doc } from "firebase/firestore"
+import { getFirestore, collection, query, where, getDocs, getDoc, addDoc, doc } from "firebase/firestore"
 import { initializeApp } from "firebase/app"
 
 const firebaseConfig = {
@@ -52,5 +52,17 @@ export const getProductDetail = async (productId) => {
     }
   } catch (error) {
     console.error("Error al obtener los datos: ", error)
+  }
+}
+
+export const postOrden = async (orden) => {
+  const db = getFirestore()
+  const ordenesCollection = collection(db, "ordenes")
+
+  try {
+    const response = await addDoc(ordenesCollection, orden)
+    return response.id
+  } catch (error) {
+    console.error("Error al añadir el documento: ", error)
   }
 }
