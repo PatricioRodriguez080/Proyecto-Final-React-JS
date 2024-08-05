@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemList from './ItemList'
-import { collection, getFirestore, where, query, getDocs } from "firebase/firestore"
-import SkeletonProductos from "../../Skeletons/SkeletonProductos"
+import SkeletonProductos from '../../Skeletons/SkeletonProductos'
+import { getFilteredProducts } from '../../../services/productService'
 
 const ItemListContainer = () => {
   const { urlParam, grupoSeleccionado } = useParams()
@@ -12,28 +12,12 @@ const ItemListContainer = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const db = getFirestore()
-        let itemQuery = collection(db, "productos")
-
-        if (urlParam) {
-          itemQuery = query(itemQuery, where("categoria", "==", urlParam))
-        }
-
-        if (grupoSeleccionado) {
-          itemQuery = query(itemQuery, where("grupo", "==", grupoSeleccionado))
-        }
-
-        const snapshot = await getDocs(itemQuery)
-
-        if (snapshot.size === 0) {
-          console.log("Sin resultados")
-        } else {
-          setProductosFiltrados(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })))
-        }
+        const productos = await getFilteredProducts(urlParam, grupoSeleccionado)
+        setProductosFiltrados(productos)
         setLoading(false)
-
       } catch (error) {
         console.error("Error al obtener los datos: ", error)
+        setLoading(false)
       }
     }
 
