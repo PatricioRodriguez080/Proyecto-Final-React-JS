@@ -17,10 +17,12 @@ const MensajeOrden = () => {
 
     return (
         <div className="container-custom">
-            <div className="alert alert-light" role="alert">
-                <h2>Gracias por su compra!!</h2>
-                <p>Su orden de compra es: <b>{orderId}</b></p>
-                <p>Volviendo al inicio...</p>
+            <div className="container-alert-checkout">
+                <div className="alert alert-checkout alert-light text-center" role="alert">
+                    <h2>Gracias por su compra!!</h2>
+                    <p>Su orden de compra es: <b>{orderId}</b></p>
+                    <p>Volviendo al inicio...</p>
+                </div>
             </div>
         </div>
     )
