@@ -15,6 +15,7 @@ const ItemDetailContainer = () => {
         const producto = await getProductDetail(urlParam)
         setProductoAMostrar(producto)
         setLoading(false)
+        window.scrollTo(0, 0)
       } catch (error) {
         console.log('Error al traer producto', error)
       }
