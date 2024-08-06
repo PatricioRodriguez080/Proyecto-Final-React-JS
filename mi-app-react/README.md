@@ -22,7 +22,7 @@ Este proyecto es el resultado de mi trabajo durante el curso de CoderHouse. Pude
 ## 📸 Imagenes del proyecto
 ![Página principal del e-commerce](public/images/Portada-readme.png)
 ![Proceso de compra](public/images/imagen2-readme.png)
-![Orden de compra](public/images/imagen3-readme.png)
+![Orden de compra](public/images/EjemploCompra-readme.png)
 ![Ejemplo de compra](public/images/Ejemplo-readme.png)
 
 ## ❔Donde puedo ver el proyecto? 
