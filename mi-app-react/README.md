@@ -1,8 +1,12 @@
-# React + Vite
+# Proyecto Final ReactJS
+¡Bienvenido/a al repositorio de mi proyecto final de CoderHouse!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del Proyecto
+Este proyecto es el resultado de mi trabajo durante el curso de CoderHouse. Pude crear una aplicación web interactiva utilizando ReactJS y Vite, siguiendo buenas prácticas de desarrollo y utilizando librerías como Luxon, Swiper, React Router DOM y React Loading Skeleton. Este proyecto simula un e-commerce de venta de álbumes y merch de K-pop. Los datos son obtenidos desde una base de datos y luego se postean para la posterior generación de órdenes de compra, las cuales se guardan en la misma base de datos.
 
-Currently, two official plugins are available:
+## Imagenes del proyecto
+![Página principal del e-commerce](public/images/Portada-readme.png)
+![Proceso de compra](public/images/imagen2-readme.png)
+![Orden de compra](public/images/imagen3-readme.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Donde puedo ver el proyecto? 
